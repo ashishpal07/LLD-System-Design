@@ -10,7 +10,7 @@ public abstract class Character {
         weaponBehaviour.useWeapon();
     }
 
-    public void setWeaponBehaviour(WeaponBehaviour weaponBehaviour) {
+    public void changeWeaponBehaviour(WeaponBehaviour weaponBehaviour) {
         this.weaponBehaviour = weaponBehaviour;
     }
 
